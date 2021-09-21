@@ -1,11 +1,8 @@
-import React from "react";
+import { IIconProps } from "../interfaces/interface";
 
-interface IconProps {
-  name: 'action' | 'comedy' | 'documentary' | 'drama' | 'horror' | 'family';
-  color: string;
-}
 
-export function Icon(props: IconProps) {
+
+export function Icon(props: IIconProps) {
 
   switch (props.name) {
     case 'action':
